@@ -2,18 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Header from './Header';
-import ContenedorP from './ContenedorP';
+import App from './App';
 
 ReactDOM.render( 
-    <Header /> ,
+    <App/> ,
     document.getElementById('header')
 );
 
-ReactDOM.render( 
-    <ContenedorP/>,
-    document.getElementById('root')
-);
+
 
 
 // If you want to start measuring performance in your app, pass a function
